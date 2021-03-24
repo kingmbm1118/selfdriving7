@@ -155,29 +155,20 @@ The project could be executed directly using `./build/path_planning`
 Listening to port 4567
 ```
 
-Now the path planner is running and listening on port 4567 for messages from the simulator. Next step is to open Udacity's simulator:
-
-![Simulator first screen](images/simulator.png)
-
-Click the "Select" button and hope for the best on the highway... well... no really... we are not catching, aren't we?
-At the beginning I did, but now it works!
-
-# [Rubic](https://review.udacity.com/#!/rubrics/1020/view) points
+Now the path planner is running and listening on port 4567 for messages from the simulator. 
 
 ## Compilation
 
 ### The code compiles correctly.
 
-No changes were made in the cmake configuration. A new file was added [src/spline.h](./scr/spline.h). It is the [Cubic Spline interpolation implementation](http://kluge.in-chemnitz.de/opensource/spline/): a single .h file you can use splines instead of polynomials. It was a great suggestion from the classroom QA video. It works great.
+No changes were made in the cmake configuration. A new file was added [src/spline.h](./scr/spline.h). It is the [Cubic Spline interpolation implementation] a single .h file you can use splines instead of polynomials. It was a great suggestion from the classroom QA video. It works great.
 
 ## Valid trajectories
 
 ### The car is able to drive at least 4.32 miles without incident.
-I ran the simulator for 15 and 20 miles without incidents:
+I ran the simulator for 10 miles without incidents:
 
-![15 miles](images/15_miles.png)
-
-![20 miles](images/20_miles.png)
+![highway_driving1](images/highway_driving1.PNG)
 
 ### The car drives according to the speed limit.
 No speed limit red message was seen.
