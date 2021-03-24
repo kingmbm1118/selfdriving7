@@ -772,14 +772,6 @@ lapacke_mangling.h
 
 /home/workspace/CarND-Path-Planning-Project/src/Eigen-3.3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 
-/home/workspace/CarND-Path-Planning-Project/src/helpers.h
-math.h
--
-string
--
-vector
--
-
 /home/workspace/CarND-Path-Planning-Project/src/json.hpp
 algorithm
 -
@@ -837,30 +829,28 @@ vector
 -
 
 /home/workspace/CarND-Path-Planning-Project/src/main.cpp
+fstream
+-
+math.h
+-
 uWS/uWS.h
 -
-fstream
+chrono
 -
 iostream
 -
-string
+thread
 -
 vector
--
-algorithm
 -
 Eigen-3.3/Eigen/Core
 /home/workspace/CarND-Path-Planning-Project/src/Eigen-3.3/Eigen/Core
 Eigen-3.3/Eigen/QR
 /home/workspace/CarND-Path-Planning-Project/src/Eigen-3.3/Eigen/QR
-helpers.h
-/home/workspace/CarND-Path-Planning-Project/src/helpers.h
 json.hpp
 /home/workspace/CarND-Path-Planning-Project/src/json.hpp
 spline.h
 /home/workspace/CarND-Path-Planning-Project/src/spline.h
-math.h
-/home/workspace/CarND-Path-Planning-Project/src/math.h
 
 /home/workspace/CarND-Path-Planning-Project/src/spline.h
 cstdio
